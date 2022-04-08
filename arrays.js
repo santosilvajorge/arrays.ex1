@@ -140,11 +140,16 @@ console.log(emptyArray) */
    es.: ["strive", "is", "great"] => [6, 2, 5]
   */
   
-let string = ["strive", "is", "great"];
+/* let string = ["strive", "is", "great"];
 
 for (i=0; i < string.length; i++){
   console.log(i.length)
 }
+
+ */
+
+/* !!! INCOMPLETE !!! */
+
 
 
 

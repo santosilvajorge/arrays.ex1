@@ -306,16 +306,24 @@ console.log(maxArray) */
       Write a piece of code to  find the oldest movie in the provided movies array.
   */
 
-    for (i=0; i <= movies.length; i++){
-      if(movies.indexOf(i)(1) < movies.indexOf(i-1)(1) {
-      let minYear = movies.indexOf((i)(0, 1))
-      }
-    } 
-  
+    arrayYears = []
 
-  console.log(minYear)
+    for (i=0; i < movies.length; i++) {
+      arrayYears.push(movies[i].Year)
+    }
 
-  
+    minYearArray = Math.min(...arrayYears)
+
+    let indexArray = movies.indexOf(minYearArray)
+    
+    for (i=0; i < movies.length; i++) {
+      if (movies.includes(minYearArray) == true)
+      console.log(movies[i])
+    }
+
+
+
+
   /* EXERCISE 13
       Write a piece of code to get the number of movies contained in the provided movies array.
   */

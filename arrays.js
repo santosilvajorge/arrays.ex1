@@ -160,21 +160,34 @@ for (i=0; i < string.length; i++){
    [1, 3, 5] ==> [5, 3, 1]
   */
   
-   
-   const array = []
 
-  for (i=9; i >= 0; i--) {
-    array.push(i)
-  }
+   /* const array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+   array.reverse()
 
-  console.log(array)
+   console.log(array) */
+
+
+
+
+
 
   /* EXERCISE 11
    Write a piece of code for getting the maximum numerical value from an array.
   */
   
+
+ /*  const array = [1, 2, 3, 4, 5];
+  const maxArray = Math.max(...array);
+
+console.log(maxArray) */
+
+
+
+
+
+
   /* This movies array is used throughout the exercises. You're not supposed to alter it. */
- /*  const movies = [
+  const movies = [
     {
       Title: "The Lord of the Rings: The Fellowship of the Ring",
       Year: "2001",
@@ -287,11 +300,20 @@ for (i=0; i < string.length; i++){
       Poster:
         "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
     },
-  ]; */
+  ];
   
   /* EXERCISE 12
       Write a piece of code to  find the oldest movie in the provided movies array.
   */
+
+    for (i=0; i <= movies.length; i++){
+      if(movies[i][1] < movies[i-1][1]){
+      minYear = console.log(movies[i][0, 1])
+    } 
+  }
+
+  console.log(minYear)
+
   
   /* EXERCISE 13
       Write a piece of code to get the number of movies contained in the provided movies array.

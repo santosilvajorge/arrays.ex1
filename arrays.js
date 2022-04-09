@@ -307,10 +307,11 @@ console.log(maxArray) */
   */
 
     for (i=0; i <= movies.length; i++){
-      if(movies[i][1] < movies[i-1][1]){
-      minYear = console.log(movies[i][0, 1])
+      if(movies.indexOf(i)(1) < movies.indexOf(i-1)(1) {
+      let minYear = movies.indexOf((i)(0, 1))
+      }
     } 
-  }
+  
 
   console.log(minYear)
 

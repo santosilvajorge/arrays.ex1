@@ -160,6 +160,15 @@ for (i=0; i < string.length; i++){
    [1, 3, 5] ==> [5, 3, 1]
   */
   
+   
+   const array = []
+
+  for (i=9; i >= 0; i--) {
+    array.push(i)
+  }
+
+  console.log(array)
+
   /* EXERCISE 11
    Write a piece of code for getting the maximum numerical value from an array.
   */

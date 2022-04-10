@@ -1,3 +1,6 @@
+  
+  
+  
   /* EXERCISE 1
   Given the object below, write a piece of code for programmatically removing the last skill from the skills array inside the me object.
   */
@@ -10,6 +13,7 @@
 
   me.skills.pop();
   console.log(me); */
+
 
 
 
@@ -33,6 +37,7 @@
 
 
 
+
   /* EXERCISE 3
   Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 100 inclusive
    */
@@ -46,6 +51,7 @@
 
  console.log(array)
  */
+
 
 
 
@@ -70,6 +76,8 @@ console.log(emptyArray) */
 
 
 
+
+
   /* EXERCISE 5
   Write a piece of code to sum up the numbers in an array
    */
@@ -86,6 +94,8 @@ console.log(emptyArray) */
   
 
 
+
+
   /* EXERCISE 6
    Write a piece of code for increasing all the numerical values in a array by 1.
   */
@@ -95,6 +105,9 @@ console.log(emptyArray) */
   newArray = array.map(i => i + 1)
 
   console.log(newArray) */
+
+
+
 
 
 
@@ -115,21 +128,26 @@ console.log(emptyArray) */
   console.log(array) */
 
 
+
+
+
+
   /* EXERCISE 8
   Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 10 inclusive WITHOUT duplicates
    */
   
-/*   const array = [];
- 
-  for (i=1; i <= 10; i++){
-    randomNumber = array.push(Math.floor(Math.random() * (10 - 0)))
-  } if (randomNumber == )
- 
-  console.log(array) */
+  /* var nums = [1,2,3,4,5,6,7,8,9,10];
+  ranNums = [];
+  i = nums.length;
+  j = 0;
 
+while (i--) {
+  j = Math.floor(Math.random() * (i+1));
+  ranNums.push(nums[j]);
+  nums.splice(j,1);
+}
 
-
-  /* !!! INCOMPLETE !!! */
+console.log(ranNums) */
 
 
 
@@ -141,14 +159,13 @@ console.log(emptyArray) */
   */
   
 /* let string = ["strive", "is", "great"];
+let total = [];
 
-for (i=0; i < string.length; i++){
-  console.log(i.length)
+for (i = 0; i < string.length; i++) {
+  total.push(string[i].length)
 }
 
- */
-
-/* !!! INCOMPLETE !!! */
+ console.log(total); */
 
 
 
@@ -171,6 +188,7 @@ for (i=0; i < string.length; i++){
 
 
 
+
   /* EXERCISE 11
    Write a piece of code for getting the maximum numerical value from an array.
   */
@@ -186,8 +204,9 @@ console.log(maxArray) */
 
 
 
+
   /* This movies array is used throughout the exercises. You're not supposed to alter it. */
-  const movies = [
+  /* const movies = [
     {
       Title: "The Lord of the Rings: The Fellowship of the Ring",
       Year: "2001",
@@ -300,7 +319,7 @@ console.log(maxArray) */
       Poster:
         "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
     },
-  ];
+  ]; */
   
   /* EXERCISE 12
       Write a piece of code to  find the oldest movie in the provided movies array.
@@ -337,6 +356,7 @@ console.log(moviesLenght)
  */
 
   
+
 
 
 
@@ -421,11 +441,11 @@ console.log(moviesArray) */
 
 
 
+
   /* EXERCISE 18
      Write a piece of code to get  all the movies in the provided movies array which contain the string value (provided below) in the title.
   */
 
 
+/* ??? what is the string value "provided Below" ??? */
 
-
-     

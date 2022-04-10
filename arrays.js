@@ -206,7 +206,7 @@ console.log(maxArray) */
 
 
   /* This movies array is used throughout the exercises. You're not supposed to alter it. */
-  /* const movies = [
+   const movies = [
     {
       Title: "The Lord of the Rings: The Fellowship of the Ring",
       Year: "2001",
@@ -319,13 +319,13 @@ console.log(maxArray) */
       Poster:
         "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
     },
-  ]; */
+  ]; 
   
   /* EXERCISE 12
       Write a piece of code to  find the oldest movie in the provided movies array.
   */
 
-   /*  arrayYears = []
+     arrayYears = []
 
     for (i=0; i < movies.length; i++) {
       arrayYears.push(movies[i].Year)
@@ -334,15 +334,15 @@ console.log(maxArray) */
     minYearArray = Math.min(...arrayYears)
     console.log(minYearArray)
 
-    
-    console.log(Year.includes("1963"))
+    const found = movies.find(Year => Year == "minYearArray");
 
-
-      ??? */
-
+console.log(found);
 
 
 
+
+
+????
 
 
 

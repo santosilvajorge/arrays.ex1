@@ -360,7 +360,17 @@ console.log(moviesArray) */
   /* EXERCISE 15
      Write a piece of code to get only the movies produced in this millennium from the provided movies array.
   */
- 
+
+/* let moviesArray = [];
+
+for (i=0; i < movies.length; i++) {
+
+  if (movies[i].Year >= 2000)
+  moviesArray.push(movies[i].Title)
+}
+
+console.log(moviesArray) */
+
 
 
 
@@ -371,10 +381,51 @@ console.log(moviesArray) */
   */
   /* const id = "tt0355702"; */
   
+  /* let moviesArray = [];
+
+  for (i=0; i < movies.length; i++) {
+  
+    if (movies[i].imdbID == "tt0355702")
+    moviesArray.push(movies[i].Title)
+  }
+  
+  console.log(moviesArray) */
+
+
+
+
+
+
   /* EXERCISE 17
        Write a piece of code to get  the  the sum of all the years in which the movies in the provided movies array have been produced.
   */
   
+     /*  let moviesYear = [];
+
+       for (i=0; i < movies.length; i++) {
+        moviesYear.push(parseInt(movies[i].Year));
+
+        
+       }
+
+       let sum = 0;
+
+       for (i=0; i < moviesYear.length; i++) {
+        sum += moviesYear[i];
+      }
+
+      console.log(sum)
+ */
+
+
+
+
+
   /* EXERCISE 18
      Write a piece of code to get  all the movies in the provided movies array which contain the string value (provided below) in the title.
   */
+
+
+
+
+     

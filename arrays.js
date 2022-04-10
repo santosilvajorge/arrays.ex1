@@ -306,20 +306,23 @@ console.log(maxArray) */
       Write a piece of code to  find the oldest movie in the provided movies array.
   */
 
-    arrayYears = []
+   /*  arrayYears = []
 
     for (i=0; i < movies.length; i++) {
       arrayYears.push(movies[i].Year)
     }
 
     minYearArray = Math.min(...arrayYears)
+    console.log(minYearArray)
 
-    let indexArray = movies.indexOf(minYearArray)
     
-    for (i=0; i < movies.length; i++) {
-      if (movies.includes(minYearArray) == true)
-      console.log(movies[i])
-    }
+    console.log(Year.includes("1963"))
+
+
+      ??? */
+
+
+
 
 
 
@@ -327,15 +330,42 @@ console.log(maxArray) */
   /* EXERCISE 13
       Write a piece of code to get the number of movies contained in the provided movies array.
   */
+
+ /* let moviesLenght = movies.length
+
+console.log(moviesLenght)
+ */
+
   
+
+
+
   /* EXERCISE 14
       Write a piece of code to create an array with just the titles of the movies contained in the provided movies array.
   */
   
+/* let moviesArray = [];
+
+for (i=0; i < movies.length; i++) {
+  moviesArray.push(movies[i].Title)
+}
+
+console.log(moviesArray) */
+
+
+
+
+
+
   /* EXERCISE 15
      Write a piece of code to get only the movies produced in this millennium from the provided movies array.
   */
-  
+ 
+
+
+
+
+
   /* EXERCISE 16
      Write a piece of code to get  the movie with the  id given below from the provided movies array.
   */

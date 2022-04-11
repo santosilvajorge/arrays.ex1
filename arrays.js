@@ -325,24 +325,18 @@ console.log(maxArray) */
       Write a piece of code to  find the oldest movie in the provided movies array.
   */
 
-     arrayYears = []
-
-    for (i=0; i < movies.length; i++) {
-      arrayYears.push(movies[i].Year)
-    }
-
-    minYearArray = Math.min(...arrayYears)
-    console.log(minYearArray)
-
-    const found = movies.find(Year => Year == "minYearArray");
-
-console.log(found);
+      let maxYear = parseInt(movies[0].Year);
+      let oldestMovie;
+      for (let i = 0; i < movies.length; i++) {
+        const parsedYear = parseInt(movies[i].Year); // parse string to number
+        if (parsedYear > maxYear) {
+          oldestMovie = movies[i];
+        }
+      }
+      
+      console.log(oldestMovie);
 
 
-
-
-
-????
 
 
 
